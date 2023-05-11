@@ -1,0 +1,132 @@
+.p1{
+    color: rgb(204, 36, 7);
+    text-shadow: 2px 2px black;
+    font-family: oswald;
+    position: absolute;
+    right: 30%;
+    top: 40%;
+    text-transform: uppercase;
+    opacity: 0.8;
+    font-size: 600%;
+}
+.p2 {
+    color: crimson;
+    text-shadow: 2px 2px black;
+    text-transform: uppercase;
+    font-size: 300%;
+    font-family: oswald;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+.p3{
+    color: crimson;
+    text-shadow: 2px 2px black;
+    text-transform: uppercase;
+    font-size: 300%;
+    font-family: oswald;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.p4{
+    color: rgb(160, 202, 6);
+    text-shadow: 2px 2px black;
+    font-family: oswald;
+    position: absolute;
+    right: 2%;
+    bottom: 1%;
+    text-transform: uppercase;
+    opacity: 0.8;
+    font-size: 150%;
+}
+.p5{
+    color: crimson;
+    text-shadow: 2px 2px black;
+    text-transform: uppercase;
+    font-size: 300%;
+    font-family: oswald;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.p6{
+    color: rgb(160, 202, 6);
+    text-shadow: 2px 2px black;
+    font-family: oswald;
+    position: absolute;
+    right: 2%;
+    bottom: 1%;
+    text-transform: uppercase;
+    opacity: 0.8;
+    font-size: 150%; 
+}
+.button1{
+    background-color: rgb(160, 202, 6);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.flex-center-bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+}
+
+.flex-item-center {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: center;
+}
+/* .iframe1{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    margin: 10px;
+}
+.iframe2{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    margin: 10px;
+}
+.iframe3{
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    margin: 10px;
+} */
+a:link {
+    color: red;
+  }
+  a:visited {
+    color: rgb(160, 202, 6);
+  }
+  a:hover {
+    color: hotpink;
+  }
+  a:active {
+    color: blue;
+  } 
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+.div1 {
+    background-image: url("sabaton2.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
